@@ -1,11 +1,7 @@
-function People(name,age){
-  this.name = name
-  this.age = age
-}
-People.prototype.say = (name) => {
-  console.log(`${name} say something`)
-}
-const student = new People('kuma', 22)
+const obj = { a: 100, b: 200 }
+with(obj) {
+  console.log(a)
+  console.log(b)
+  console.log(c)
 
-console.dir(People)
-console.dir(student)
+}
