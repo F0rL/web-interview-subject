@@ -5,10 +5,10 @@ import ListDemo from './ListDemo'
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
+      <React.Fragment>
         <h1>react</h1>
         <ListDemo />
-      </div>
+      </React.Fragment>
     )
   }
 }
