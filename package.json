@@ -1,0 +1,28 @@
+{
+  "name": "web-interview-subject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rdev": "parcel ./react/index.html --no-cache -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F0rL/web-interview-subject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F0rL/web-interview-subject/issues"
+  },
+  "homepage": "https://github.com/F0rL/web-interview-subject#readme",
+  "dependencies": {
+    "r": "^0.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
